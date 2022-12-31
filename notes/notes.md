@@ -1,3 +1,4 @@
+kubectl delete mongodbcommunity example-mongodb --namespace mongodb
 https://github.com/mongodb/mongodb-kubernetes-operator/blob/master/docs/install-upgrade.md#procedure-using-kubectl
 kubectl create namespace mongodb
 kubectl apply -k config/rbac --namespace mongodb
