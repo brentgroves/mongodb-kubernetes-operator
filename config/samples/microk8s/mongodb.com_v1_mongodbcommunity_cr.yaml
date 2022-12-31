@@ -8,7 +8,6 @@ spec:
   members: 1
   type: ReplicaSet
   version: "4.4.0"
-  persistent: true
   podSpec:
     persistence:
       single: 
