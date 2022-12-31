@@ -8,15 +8,6 @@ spec:
   members: 1
   type: ReplicaSet
   version: "4.4.0"
-  podSpec:
-    persistence:
-      single: 
-        labelSelector: 
-          matchLabels:
-            type: local
-            service: mongo
-        storage: 5Gi
-        storageClass: manual
   statefulSet:
     spec:
       volumeClaimTemplates:
